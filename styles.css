@@ -662,6 +662,7 @@ img {
     border-radius: 12px;
     overflow: hidden;
     max-width: 100%;
+
 }
 
 .profile-image img {
@@ -669,7 +670,7 @@ img {
     max-width: 300px;
     height: auto;
     max-height: 250px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
